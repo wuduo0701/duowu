@@ -1,0 +1,24 @@
+// Custom styles.
+//隐藏社交图标前的圆点
+.links-of-author a,
+.links-of-author .exturl {
+  &:before {
+    display: none;
+  }
+}
+
+//TOC目录默认全部展开
+.post-toc .nav .nav-child {
+  display: block;
+}
+
+//TOC目录默认展开两级
+.post-toc .nav .nav-level-1>.nav-child {
+  display: block;
+}
+
+//增加搜索弹窗的页边距
+.local-search-popup #local-search-result {
+  padding: 25px 40px
+  height: calc(100% - 95px)
+}
