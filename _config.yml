@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: '朵雾'
-subtitle: '博客'
+title: '朵雾🌸Flower fog'
+subtitle: 'Learn to be strict with yourself and lenient to others'
 description: '奔跑吧，少年'
-keywords:
+keywords: ''
 author: 朵雾
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://duowu.site
 root: /
-permalink: :year/:month/:day/:title/
+permalink: posts/:title.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -99,7 +99,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@47.104.7.58:~/blog.duowu.site
+  repo: root@47.104.7.58:/data/gitlibrary/hexo
+  branch: master
 
 # 控制统计信息的显示样式
 symbols_count_time:

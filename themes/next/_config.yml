@@ -106,7 +106,7 @@ footer:
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
@@ -200,7 +200,7 @@ avatar:
   # in theme directory(source/images): /images/avatar.gif
   # in site  directory(source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: https://web-duowu.oss-cn-beijing.aliyuncs.com/Avator.png?Expires=1589960280&OSSAccessKeyId=TMP.3KhuNxK9hLfNSRGW82x3D8oXFPUGDeA7V3syzBemAEDY575nhMZeVjU556QRp9zMJMrdq3JmRif6VUB6x5vuGg86NUrwaC&Signature=690TJ2AHkTuTXrA7hsxibyE%2BXl0%3D
+  url: https://web-duowu.oss-cn-beijing.aliyuncs.com/Avator.png?Expires=1590037765&OSSAccessKeyId=TMP.3KfkkpHRKAHXmGeTqVGZ4ZErxZUDMtsbcgvHvNiHsd1ZqqnnhM3EVcJE7uLorsi8bVtvTLUnjpH9hMLRxHHA9hrJJ7aUtB&Signature=1nPbbYbt5Qaohpei7gG6iDB1e5Q%3D
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -471,7 +471,7 @@ math:
 # Dependencies: https://github.com/theme-next/theme-next-han
 han: false
 
-# Pangu Support
+#  Support
 # Dependencies: https://github.com/theme-next/theme-next-pangu
 # For more information: https://github.com/vinta/pangu.js
 pangu: true

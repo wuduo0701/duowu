@@ -1,15 +1,14 @@
 # duowu
 Hexo + Next 搭建个人博客✏
 
-```
-echo "post-receive hook is running..."
+上传博客步骤
 
-GIT_REPO=/home/git/blog.duowu.git
-TMP_GIT_CLONE=/tmp/blog.yearito
-PUBLIC_WWW=/var/www/blog.yearito
+清除缓存
 
-rm -rf $TMP_GIT_CLONE
-git clone $GIT_REPO $TMP_GIT_CLONE
-rm -rf ${PUBLIC_WWW}/*
-cp -rf ${TMP_GIT_CLONE}/* ${PUBLIC_WWW}/
-```
+hexo clean
+生成静态页面:
+
+hexo generate
+将本地静态页面目录部署到云服务器
+
+hexo deploy
