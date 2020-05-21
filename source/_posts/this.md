@@ -1,3 +1,12 @@
+---
+title: this指向和call，apply， bind，new
+date: 2020-05-20 21:26:17
+categories: 
+  - ['技术', 'javascript']
+tags: 
+  - this指向
+  - javascript
+---
 ## this指向
 this永远指向最后调用它的对象，而不是创建的时候定义的
 1. 函数作为对象的方法被调用时，this指向该对象

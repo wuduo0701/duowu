@@ -1,3 +1,16 @@
+---
+title: React基础总结
+date: 2020-05-20 21:26:17
+categories: 
+  - ['技术', 'javascript']
+  - ['技术','react']
+
+  
+tags: 
+  - react
+  - redux
+  - 虚拟dom
+---
 ## React学习
 
 - constructor组件创建的时候第一个执行的函数

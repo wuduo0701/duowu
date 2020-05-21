@@ -60,7 +60,7 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  since: 2020
+  since: 2019
 
   # Icon between year and copyright info.
   icon:
@@ -163,6 +163,7 @@ site_state: true
 social:
   GitHub: https://github.com/1970186643 || github
   E-Mail: mailto:1970186643@gmail.com || envelope
+  掘金: https://juejin.im/user/5dbe78766fb9a02075109419/posts || 掘金
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -196,11 +197,11 @@ links:
   duowu: http://example.com/
 
 # Sidebar Avatar
-avatar:
+avatar: 
   # in theme directory(source/images): /images/avatar.gif
   # in site  directory(source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: https://web-duowu.oss-cn-beijing.aliyuncs.com/Avator.png?Expires=1590037765&OSSAccessKeyId=TMP.3KfkkpHRKAHXmGeTqVGZ4ZErxZUDMtsbcgvHvNiHsd1ZqqnnhM3EVcJE7uLorsi8bVtvTLUnjpH9hMLRxHHA9hrJJ7aUtB&Signature=1nPbbYbt5Qaohpei7gG6iDB1e5Q%3D
+  url: /images/Avator.png
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -315,9 +316,9 @@ codeblock:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 # Reward
-#reward_comment: Donate comment here
-#wechatpay: /images/wechatpay.jpg
-#alipay: /images/alipay.jpg
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+wechatpay: /images/diy/wechat.png
+alipay: /images/diy/alipay.png
 #bitcoin: /images/bitcoin.png
 
 # Related popular posts
@@ -335,7 +336,7 @@ related_posts:
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a>
 
 # Post edit
@@ -368,7 +369,7 @@ custom_logo:
 # Code Highlight theme
 # Available values: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night bright
 
 # Enable "cheers" for archive page.
 cheers_enabled: true
@@ -474,7 +475,7 @@ han: false
 #  Support
 # Dependencies: https://github.com/theme-next/theme-next-pangu
 # For more information: https://github.com/vinta/pangu.js
-pangu: true
+pangu:
 
 # Swiftype Search API Key
 #swiftype_key:
@@ -501,8 +502,8 @@ changyan:
 # more info please open https://valine.js.org
 valine:
   enable: ture # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
-  appid:  
-  appkey:  
+  app_id: mQDFWqP6SpFUGrMq71OVcGXG-gzGzoHsz
+  app_key: 1u27xV36tJaB607rCiE7EKFY
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: Just go go # comment box placeholder
