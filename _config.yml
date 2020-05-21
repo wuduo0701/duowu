@@ -98,7 +98,8 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 'git  '
+  type: git
+  repo: git@47.104.7.58:~/blog.duowu.site
 
 # 控制统计信息的显示样式
 symbols_count_time:
