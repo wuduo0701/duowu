@@ -40,6 +40,11 @@
 
 {% if theme.seo %}
   {% set nofollow = ' rel="external nofollow"' %}
+  <div class="BbeiAn-info">
+<a target="_blank"  href="http://www.beian.miit.gov.cn/s" style="color:#999">赣ICP备20003382号-1</a> | 
+<a target="_blank"  href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=36112402000108" style="color:#999">赣公网安备36112402000108号-1</a>
+</a>
+</div>
 {% endif %}
 
 {% if theme.footer.powered.enable %}
@@ -65,4 +70,5 @@
   <div class="footer-custom">{#
   #}{{ theme.footer.custom_text }}{#
 #}</div>
+
 {% endif %}
