@@ -116,3 +116,20 @@ search:
   field: post # 指定搜索范围，可选 post | page | all
   format: html # 指定页面内容形式，可选 html | raw (Markdown) | excerpt | more
   limit: 10000
+
+# RSS订阅
+feed:
+  type: atom # atom/rss2
+  path: atom.xml # atom.xml/rss2.xml
+  limit: 20 # 展示文章的数量,0或则false代表展示全部
+  hub:
+  content: # 在RSS文件中是否包含内容,默认不填为false
+  content_limit: # 摘要的最大长度
+  content_limit_delim: ' ' # 摘要以何限制符于最大长度前提前结束
+
+# 搜索
+algolia:
+  applicationID: 'BGZ9Z9AK4Y'
+  apiKey: '4467ff422a10815a69d7c2f4a4befe58'
+  indexName: 'lin'
+
