@@ -9,6 +9,7 @@ hexo clean
 生成静态页面:
 
 hexo generate
-将本地静态页面目录部署到云服务器
+<!-- 将本地静态页面目录部署到云服务器 -->
 
-hexo deploy
+<!-- hexo deploy -->
+hexo g -d

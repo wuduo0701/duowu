@@ -101,7 +101,7 @@ deploy:
   type: git
   repo:
     git: https://github.com/wuduo0701/wuduo0701.github.io.git
-  branch: gh-pages
+  branch: main
 
 # 控制统计信息的显示样式
 symbols_count_time:
