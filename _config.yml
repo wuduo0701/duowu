@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: '朵雾🌸Flower fog'
+title: '朵雾のBlog'
 subtitle: 'Learn to be strict with yourself and lenient to others'
 description: '奔跑吧，少年'
 keywords: ''
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://duowu.site
+# url: http://duowu.site
 root: /
 permalink: posts/:title.html
 permalink_defaults:
@@ -46,7 +46,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -93,14 +93,15 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: melody
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: root@47.104.7.58:/data/gitlibrary/hexo
-  branch: master
+  repo:
+    git: https://github.com/wuduo0701/wuduo0701.github.io.git
+  branch: gh-pages
 
 # 控制统计信息的显示样式
 symbols_count_time:
